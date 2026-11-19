@@ -182,7 +182,7 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 16226,
+                  "duration": 17221,
                   "errors": [],
                   "stdout": [],
                   "stderr": [
@@ -224,7 +224,7 @@
                     }
                   ],
                   "retry": 0,
-                  "startTime": "2026-11-19T11:25:37.691Z",
+                  "startTime": "2026-11-19T12:03:24.697Z",
                   "annotations": [
                     {
                       "type": "serial",
@@ -260,7 +260,7 @@
                   "workerIndex": 1,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 16255,
+                  "duration": 19962,
                   "errors": [],
                   "stdout": [],
                   "stderr": [
@@ -302,7 +302,7 @@
                     }
                   ],
                   "retry": 0,
-                  "startTime": "2026-11-19T11:25:56.292Z",
+                  "startTime": "2026-11-19T12:03:44.935Z",
                   "annotations": [
                     {
                       "type": "serial",
@@ -349,12 +349,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1528,
+                  "duration": 1850,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-19T11:25:54.058Z",
+                  "startTime": "2026-11-19T12:03:42.115Z",
                   "annotations": [
                     {
                       "type": "serial",
@@ -390,12 +390,12 @@
                   "workerIndex": 1,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1795,
+                  "duration": 2376,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-11-19T11:26:12.684Z",
+                  "startTime": "2026-11-19T12:04:05.081Z",
                   "annotations": [
                     {
                       "type": "serial",
@@ -422,8 +422,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-11-19T11:25:36.483Z",
-    "duration": 38085.600000000006,
+    "startTime": "2026-11-19T12:03:23.631Z",
+    "duration": 43917.439000000006,
     "expected": 4,
     "skipped": 0,
     "unexpected": 0,

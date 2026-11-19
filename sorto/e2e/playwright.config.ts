@@ -1,4 +1,8 @@
 import { defineConfig, devices } from '@playwright/test';
+import { readFileSync } from 'node:fs';
+import path from 'node:path';
+
+const { adresSerwisu } = JSON.parse(readFileSync(path.resolve(__dirname, '../konfiguracja/boxes.json'), 'utf8'));
 
 export default defineConfig({
   testDir: '.',
@@ -8,7 +12,7 @@ export default defineConfig({
   reporter: [['list'], ['json', { outputFile: `../dowody/e2e-wynik${process.env.ADMIN ? '-admin' : ''}.json` }]],
   outputDir: '/tmp/boxes-e2e-wyniki',
   use: {
-    baseURL: process.env.ADRES ?? 'https://boxes.dev.sorto.ai',
+    baseURL: process.env.ADRES ?? `https://${adresSerwisu}`,
     acceptDownloads: true,
     testIdAttribute: 'data-test',
   },

@@ -1,0 +1,6 @@
+repozytorium: rekinek-cloud/boxes
+prywatne: false
+widocznosc: public
+rodzic: florianfesti/boxes
+licencja: GPL-3.0
+anonimowo https://github.com/rekinek-cloud/boxes: HTTP 200

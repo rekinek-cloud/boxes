@@ -2,10 +2,10 @@
 Running 4 tests using 1 worker
 
 
-  ✓  1 [komputer] › admin.spec.ts:22:5 › 16 admin: grubość 4 mm, język angielski i inny adres edytora po restarcie, bez przebudowy obrazu (16.2s)
-  ✓  2 [komputer] › admin.spec.ts:54:5 › 17 admin: dopisany wzór pojawia się w sekcji Polecane (1.5s)
+  ✓  1 [komputer] › admin.spec.ts:22:5 › 16 admin: grubość 4 mm, język angielski i inny adres edytora po restarcie, bez przebudowy obrazu (17.2s)
+  ✓  2 [komputer] › admin.spec.ts:54:5 › 17 admin: dopisany wzór pojawia się w sekcji Polecane (1.9s)
 
-  ✓  3 [telefon] › admin.spec.ts:22:5 › 16 admin: grubość 4 mm, język angielski i inny adres edytora po restarcie, bez przebudowy obrazu (16.3s)
-  ✓  4 [telefon] › admin.spec.ts:54:5 › 17 admin: dopisany wzór pojawia się w sekcji Polecane (1.8s)
+  ✓  3 [telefon] › admin.spec.ts:22:5 › 16 admin: grubość 4 mm, język angielski i inny adres edytora po restarcie, bez przebudowy obrazu (20.0s)
+  ✓  4 [telefon] › admin.spec.ts:54:5 › 17 admin: dopisany wzór pojawia się w sekcji Polecane (2.4s)
 
-  4 passed (38.1s)
+  4 passed (43.9s)

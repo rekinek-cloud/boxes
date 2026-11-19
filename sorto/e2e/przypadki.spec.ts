@@ -270,7 +270,7 @@ test('15 link do edytora i z powrotem przez „Więcej wzorów”', async ({ pag
   await expect(wiecej).toHaveText('Więcej wzorów');
   await p.krok('edytor', '[data-test="wiecej-wzorow"]');
   await wiecej.click();
-  await expect(page).toHaveURL(/boxes\.dev\.sorto\.ai/);
+  await expect(page).toHaveURL(new RegExp(KONFIGURACJA.adresSerwisu.replace(/\./g, '\\.')));
   await expect(page.getByTestId('polecane')).toBeVisible();
   await p.krok('z-powrotem-w-katalogu');
 });

@@ -18,11 +18,14 @@ Kod Boxes.py jest **niezmieniony**. Wszystkie nasze pliki są w tym katalogu `so
 ## Uruchomienie
 
 ```sh
-docker compose -f sorto/docker-compose.yml up -d --build
+sorto/uruchom.sh        # = docker compose -f sorto/docker-compose.yml up -d --build z adresem z konfiguracji
 ```
+
+Adres serwisu (`adresSerwisu`) jest w pliku konfiguracyjnym; jego zmiana wymaga ponownego `sorto/uruchom.sh` (nowe etykiety Traefika), ale nie przebudowy kodu.
 
 ## Konfiguracja (`konfiguracja/boxes.json`)
 
+- `adresSerwisu` — domena, pod którą Traefik wystawia serwis.
 - `jezykDomyslny` — język, gdy adres nie podaje `language=` (przełącznik języka oryginału zostaje); `jezykZapasowy` — teksty naszych dodatków dla języka bez własnych tekstów.
 - `wartosciDomyslne` — wartości parametrów podstawiane, gdy adres ich nie podaje (np. `thickness`, `burn`, `format`).
 - `dozwoloneFormaty` — formaty widoczne na liście i przyjmowane przy pobieraniu.
