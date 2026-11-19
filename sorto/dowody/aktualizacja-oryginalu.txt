@@ -1,0 +1,14 @@
+# Próba pobrania nowej wersji oryginału (2026-11-19T12:29:15+01:00)
+## 1. Bieżący stan oryginału do forka
+Already up to date.
+## 2. Symulacja: nasza warstwa na starszej wersji oryginału (upstream/master~60), potem scalenie 60 nowszych commitów oryginału
+warstwa nałożona na e086b99
+ create mode 100644 static/samples/RoundedTrapezoidBox-thumb.jpg
+ create mode 100644 static/samples/RoundedTrapezoidBox.jpg
+ create mode 100644 tests/test_traylayout.py
+konflikty: 0
+## 3. Pliki zmienione względem oryginału
+ sorto/zlecenia/2026-11-19-polecenie.md             |    89 +
+ sorto/zlecenia/2026-11-19.md                       |    74 +
+ 114 files changed, 16454 insertions(+)
+poza sorto/: 0
