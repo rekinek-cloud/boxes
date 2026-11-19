@@ -1,0 +1,13 @@
+{
+  "name": "boxes-sorto-e2e",
+  "private": true,
+  "description": "Przejścia przypadków użycia boxes.dev.sorto.ai przez ekran (Playwright) z pomiarem pobranych plików",
+  "scripts": {
+    "przygotuj": "python3 -m venv .venv && .venv/bin/pip install -q svgpathtools ezdxf pymupdf",
+    "e2e": "playwright test",
+    "e2e:admin": "ADMIN=1 playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1"
+  }
+}

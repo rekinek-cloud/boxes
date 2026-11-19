@@ -1,0 +1,52 @@
+/* Dodatki serwisu boxes.dev.sorto.ai: nagłówek, „Polecane”, komunikaty, stopka, układ na telefonie. */
+.sorto-naglowek {
+  display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; justify-content: space-between;
+  padding: 8px 12px; margin: 0 0 8px; background: #1f2a37; color: #fff; font-family: sans-serif;
+}
+.sorto-naglowek a { color: #fff; text-decoration: none; }
+.sorto-nazwa { font-weight: bold; }
+.sorto-edytor { border: 1px solid #fff; border-radius: 4px; padding: 6px 10px; }
+.sorto-edytor:hover, .sorto-edytor:focus { background: #fff; color: #1f2a37 !important; }
+
+.sorto-polecane { margin: 12px 0; }
+.sorto-polecane-lista { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; }
+.sorto-polecany {
+  display: flex; flex-direction: column; gap: 4px; padding: 8px; border: 1px solid #ccc; border-radius: 6px;
+  color: inherit; text-decoration: none; background: #fafafa;
+}
+.sorto-polecany:hover, .sorto-polecany:focus { border-color: #1f2a37; }
+.sorto-polecany img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; background: #eee; }
+.sorto-polecany-nazwa { font-weight: bold; }
+.sorto-polecany-opis { font-size: 0.85em; color: #555; }
+
+.sorto-bledy { margin: 12px 0; padding: 10px 14px; border: 2px solid #b00020; border-radius: 6px; background: #fff0f2; color: #5c0011; }
+.sorto-bledy ul { margin: 6px 0 0; padding-left: 20px; }
+
+.sorto-stopka { clear: both; margin-top: 24px; padding: 12px; border-top: 1px solid #ccc; font-size: 0.9em; color: #444; }
+
+/* Oryginał jest zaprojektowany na ekran od 996 px (body min-width, stałe szerokości). Na telefonie: jedna kolumna. */
+@media (max-width: 1000px) {
+  body { min-width: 0; margin: 0; }
+  .container, .argumentcontainer {
+    width: auto; max-width: 100%; box-sizing: border-box; margin: 8px; float: none; border-radius: 12px; overflow-wrap: anywhere;
+  }
+  .container > div[style*="width: 75%"], .container > div[style*="width: 25%"], .container > div[style*="width: 5%"],
+  .argumentcontainer > div[style*="float"] { width: auto !important; float: none !important; }
+  .container > div[style*="width: 25%"] img, .argumentcontainer > div[style*="float"] img { width: 80px; }
+  h1 { font-size: 1.8em; }
+  h2 { font-size: 1.6em; }
+  h3 { width: auto; }
+  table { margin-left: 0; }
+  .argumentcontainer table, .argumentcontainer tbody, .argumentcontainer tr { display: block; width: 100%; }
+  .argumentcontainer td { display: block; padding: 2px 0; }
+  .argumentcontainer input[type="text"], .argumentcontainer select, .argumentcontainer textarea { width: 100%; max-width: 100%; box-sizing: border-box; font-size: 16px; }
+  .argumentcontainer button { margin: 4px 4px 4px 0; padding: 10px 12px; font-size: 16px; }
+  #preview { margin: 8px; }
+  .linkbar ul li.right { float: none; display: block; }
+  .modebutton { width: auto; }
+  .gallery, .gallery_missing { width: calc(50% - 14px); }
+  .gallery img { max-width: 100%; }
+  .sorto-polecane-lista { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  img[id|=sample] { display: none; }
+  .description img { max-width: 100%; }
+}

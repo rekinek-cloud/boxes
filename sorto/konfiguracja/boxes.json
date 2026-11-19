@@ -1,0 +1,64 @@
+{
+  "jezykDomyslny": "pl",
+  "jezykZapasowy": "en",
+  "wartosciDomyslne": {
+    "thickness": "3",
+    "burn": "0.1",
+    "format": "svg"
+  },
+  "dozwoloneFormaty": ["svg", "dxf", "pdf", "lbrn2", "ps"],
+  "polecane": ["ClosedBox", "ABox", "TwoPiece", "TypeTray", "FlexBox", "SlidingDrawer", "BurnTest"],
+  "edytor": {
+    "adres": "https://pudelka.dev.sorto.ai"
+  },
+  "kodZrodlowy": {
+    "fork": "https://github.com/rekinek-cloud/boxes",
+    "oryginal": "https://github.com/florianfesti/boxes",
+    "licencja": "https://www.gnu.org/licenses/gpl-3.0.html"
+  },
+  "parametryDodatnie": ["x", "y", "h", "sx", "sy", "sh", "thickness"],
+  "parametryNieujemne": ["burn", "hi", "reference", "tabs"],
+  "podgladBledu": {
+    "szerokoscMm": 220,
+    "marginesMm": 6,
+    "wierszMm": 8,
+    "czcionkaMm": 5,
+    "kolor": "#b00020"
+  },
+  "teksty": {
+    "pl": {
+      "nazwaSerwisu": "Wzory pudełek Sorto",
+      "linkEdytora": "Edytor pudełek",
+      "polecane": "Polecane",
+      "wszystkieWzory": "Wszystkie wzory",
+      "naglowekBledow": "Popraw wartości i spróbuj ponownie:",
+      "bladLiczba": "Pole „{pole}”: wpisano „{wartosc}”, a potrzebna jest liczba (np. 100 albo 2.5).",
+      "bladPrzegrodki": "Pole „{pole}”: zapis „{wartosc}” jest niepoprawny. Wpisz szerokości przegródek w mm, np. 50*3 albo 40:60.",
+      "bladDodatnie": "Pole „{pole}” musi być większe od zera (wpisano „{wartosc}”).",
+      "bladNieujemne": "Pole „{pole}” nie może być ujemne (wpisano „{wartosc}”).",
+      "bladFormat": "Format „{wartosc}” nie jest dostępny w tym serwisie.",
+      "bladOgolny": "Nie da się wygenerować wzoru z tymi wartościami. Szczegóły: {opis}",
+      "stopkaOpis": "Serwis działa na otwartym programie Boxes.py (autor: Florian Festi i współtwórcy), licencja GNU GPL v3 lub nowsza.",
+      "stopkaFork": "Kod źródłowy tego serwisu",
+      "stopkaOryginal": "Oryginalny projekt Boxes.py",
+      "stopkaLicencja": "Licencja GPL v3"
+    },
+    "en": {
+      "nazwaSerwisu": "Sorto box patterns",
+      "linkEdytora": "Box editor",
+      "polecane": "Recommended",
+      "wszystkieWzory": "All patterns",
+      "naglowekBledow": "Please correct the values and try again:",
+      "bladLiczba": "Field “{pole}”: “{wartosc}” was entered, but a number is needed (e.g. 100 or 2.5).",
+      "bladPrzegrodki": "Field “{pole}”: “{wartosc}” is not valid. Enter section widths in mm, e.g. 50*3 or 40:60.",
+      "bladDodatnie": "Field “{pole}” must be greater than zero (entered “{wartosc}”).",
+      "bladNieujemne": "Field “{pole}” must not be negative (entered “{wartosc}”).",
+      "bladFormat": "Format “{wartosc}” is not available on this site.",
+      "bladOgolny": "The pattern cannot be generated with these values. Details: {opis}",
+      "stopkaOpis": "This site runs the open source Boxes.py (by Florian Festi and contributors), licensed under GNU GPL v3 or later.",
+      "stopkaFork": "Source code of this site",
+      "stopkaOryginal": "Original Boxes.py project",
+      "stopkaLicencja": "GPL v3 license"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+.git
+.github
+sorto/e2e
+sorto/dowody
+**/__pycache__
+**/node_modules

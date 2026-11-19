@@ -1,0 +1,55 @@
+
+Running 30 tests using 1 worker
+
+  ✓   1 [komputer] › przypadki.spec.ts:11:5 › 01 katalog po polsku: Polecane i pełny katalog z obrazkami w grupach (1.9s)
+
+  ✓   2 [komputer] › przypadki.spec.ts:34:5 › 02 pudełko zamknięte 200x100x80, 3 mm: plik ma 6 ścianek o wpisanych wymiarach (2.4s)
+
+  ✓   3 [komputer] › przypadki.spec.ts:52:5 › 03 wymiar zewnętrzny i wewnętrzny dają różne pliki, różnica = grubość ścianek (2.7s)
+
+  ✓   4 [komputer] › przypadki.spec.ts:70:5 › 04 grubość 4 mm: głębokość wczepów w pliku = 4 mm (2.5s)
+
+  ✓   5 [komputer] › przypadki.spec.ts:86:5 › 05 korekta szczeliny 0,1 mm przesuwa kontury o 0,1 mm; przy 0 wymiary nominalne; opis po polsku (2.8s)
+
+  ✓   6 [komputer] › przypadki.spec.ts:106:5 › 06 wzorzec do kalibracji szczeliny: plik i opis, jak go użyć (2.0s)
+
+  ✓   7 [komputer] › przypadki.spec.ts:123:5 › 07 pudełko otwarte: 5 ścianek (1.7s)
+
+  ✓   8 [komputer] › przypadki.spec.ts:136:5 › 08 pudełko z wiekiem: wieko jest osobną częścią i pasuje wymiarem (1.7s)
+
+  ✓   9 [komputer] › przypadki.spec.ts:156:5 › 09 organizer 3x2: przegrody z wycięciami na krzyżowanie (2.1s)
+
+  ✓  10 [komputer] › przypadki.spec.ts:171:5 › 10 wzór spoza polecanych (zawias elastyczny): nazwa i opis po polsku, własne wymiary (1.9s)
+
+  ✓  11 [komputer] › przypadki.spec.ts:187:5 › 11 podgląd przed pobraniem zmienia się po zmianie parametru (2.3s)
+  ✓  12 [komputer] › przypadki.spec.ts:204:5 › 12 ten sam projekt jako SVG, DXF i PDF: te same wymiary (3.7s)
+  ✓  13 [komputer] › przypadki.spec.ts:222:5 › 13 adres z parametrami otwarty w nowej karcie pokazuje te same wartości (1.2s)
+  ✓  14 [komputer] › przypadki.spec.ts:241:5 › 14 zero, liczba ujemna i tekst: zrozumiały komunikat zamiast błędu serwera (2.1s)
+  ✓  15 [komputer] › przypadki.spec.ts:263:5 › 15 link do edytora i z powrotem przez „Więcej wzorów” (2.4s)
+  ✓  16 [telefon] › przypadki.spec.ts:11:5 › 01 katalog po polsku: Polecane i pełny katalog z obrazkami w grupach (2.4s)
+
+  ✓  17 [telefon] › przypadki.spec.ts:34:5 › 02 pudełko zamknięte 200x100x80, 3 mm: plik ma 6 ścianek o wpisanych wymiarach (2.7s)
+
+  ✓  18 [telefon] › przypadki.spec.ts:52:5 › 03 wymiar zewnętrzny i wewnętrzny dają różne pliki, różnica = grubość ścianek (3.3s)
+
+  ✓  19 [telefon] › przypadki.spec.ts:70:5 › 04 grubość 4 mm: głębokość wczepów w pliku = 4 mm (2.8s)
+
+  ✓  20 [telefon] › przypadki.spec.ts:86:5 › 05 korekta szczeliny 0,1 mm przesuwa kontury o 0,1 mm; przy 0 wymiary nominalne; opis po polsku (3.3s)
+
+  ✓  21 [telefon] › przypadki.spec.ts:106:5 › 06 wzorzec do kalibracji szczeliny: plik i opis, jak go użyć (1.9s)
+
+  ✓  22 [telefon] › przypadki.spec.ts:123:5 › 07 pudełko otwarte: 5 ścianek (2.0s)
+
+  ✓  23 [telefon] › przypadki.spec.ts:136:5 › 08 pudełko z wiekiem: wieko jest osobną częścią i pasuje wymiarem (1.8s)
+
+  ✓  24 [telefon] › przypadki.spec.ts:156:5 › 09 organizer 3x2: przegrody z wycięciami na krzyżowanie (2.0s)
+
+  ✓  25 [telefon] › przypadki.spec.ts:171:5 › 10 wzór spoza polecanych (zawias elastyczny): nazwa i opis po polsku, własne wymiary (1.8s)
+
+  ✓  26 [telefon] › przypadki.spec.ts:187:5 › 11 podgląd przed pobraniem zmienia się po zmianie parametru (2.2s)
+  ✓  27 [telefon] › przypadki.spec.ts:204:5 › 12 ten sam projekt jako SVG, DXF i PDF: te same wymiary (4.8s)
+  ✓  28 [telefon] › przypadki.spec.ts:222:5 › 13 adres z parametrami otwarty w nowej karcie pokazuje te same wartości (1.4s)
+  ✓  29 [telefon] › przypadki.spec.ts:241:5 › 14 zero, liczba ujemna i tekst: zrozumiały komunikat zamiast błędu serwera (2.4s)
+  ✓  30 [telefon] › przypadki.spec.ts:263:5 › 15 link do edytora i z powrotem przez „Więcej wzorów” (2.9s)
+
+  30 passed (1.2m)

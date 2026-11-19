@@ -1,0 +1,18 @@
+{
+ "svg": {
+  "szer": 401.9,
+  "wys": 275.3
+ },
+ "dxf": {
+  "szer": 402.1,
+  "wys": 275.5
+ },
+ "pdf": {
+  "szer": 401.9,
+  "wys": 275.3
+ },
+ "elementyDxf": {
+  "POLYLINE": 7,
+  "TEXT": 7
+ }
+}

@@ -1,0 +1,32 @@
+# boxes.dev.sorto.ai — Boxes.py z naszą warstwą, za Traefikiem.
+# Uruchamianie z katalogu głównego repo:  docker compose -f sorto/docker-compose.yml up -d --build
+# Plik konfiguracyjny sorto/konfiguracja/boxes.json jest montowany tylko do odczytu:
+# zmiana działa bez przebudowy obrazu (serwer czyta plik od nowa po każdej zmianie; restart kontenera też wystarczy).
+name: boxes
+
+services:
+  app:
+    build:
+      context: ..
+      dockerfile: sorto/Dockerfile
+      target: sorto
+    image: boxes-sorto:latest
+    restart: unless-stopped
+    volumes:
+      - ./konfiguracja:/konfiguracja:ro
+    deploy:
+      resources:
+        limits: { memory: 1g, cpus: "2" }
+    labels:
+      - traefik.enable=true
+      - traefik.docker.network=proxy-network
+      - traefik.http.routers.boxes.entrypoints=websecure
+      - traefik.http.routers.boxes.rule=Host(`${PUBLIC_DOMAIN:-boxes.dev.sorto.ai}`)
+      - traefik.http.routers.boxes.tls.certresolver=letsencrypt
+      - traefik.http.services.boxes.loadbalancer.server.port=8000
+    networks: [proxy]
+
+networks:
+  proxy:
+    external: true
+    name: proxy-network
